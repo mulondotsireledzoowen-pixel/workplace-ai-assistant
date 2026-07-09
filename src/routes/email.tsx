@@ -20,7 +20,7 @@ import { PageHeader } from "@/components/page-header";
 
 
 export const Route = createFileRoute("/email")({
-  head: () => ({ meta: [{ title: "Smart Email Generator — Workly AI" }] }),
+  head: () => ({ meta: [{ title: "Smart Email Generator — SmartDesk AI" }] }),
   component: EmailPage,
 });
 

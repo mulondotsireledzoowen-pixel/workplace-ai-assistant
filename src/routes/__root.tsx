@@ -79,14 +79,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Workly AI — AI-Powered Workplace Productivity Assistant" },
+      { title: "SmartDesk AI — AI-Powered Workplace Productivity Assistant" },
       {
         name: "description",
         content:
-          "Workly AI combines an email generator, meeting summarizer, task planner, research assistant, and AI chat into one modern productivity dashboard.",
+          "SmartDesk AI combines an email generator, meeting summarizer, task planner, research assistant, and AI chat into one modern productivity dashboard.",
       },
-      { name: "author", content: "Workly AI" },
-      { property: "og:title", content: "Workly AI — Workplace Productivity Assistant" },
+      { name: "author", content: "SmartDesk AI" },
+      { property: "og:title", content: "SmartDesk AI — Workplace Productivity Assistant" },
       {
         property: "og:description",
         content:

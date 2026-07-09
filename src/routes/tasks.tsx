@@ -19,7 +19,7 @@ import { PageHeader } from "@/components/page-header";
 import { AiOutput } from "@/components/ai-output";
 
 export const Route = createFileRoute("/tasks")({
-  head: () => ({ meta: [{ title: "AI Task Planner — Workly AI" }] }),
+  head: () => ({ meta: [{ title: "AI Task Planner — SmartDesk AI" }] }),
   component: TasksPage,
 });
 

@@ -11,7 +11,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { PageHeader } from "@/components/page-header";
 
 export const Route = createFileRoute("/chat")({
-  head: () => ({ meta: [{ title: "AI Chat — Workly AI" }] }),
+  head: () => ({ meta: [{ title: "AI Chat — SmartDesk AI" }] }),
   component: ChatPage,
 });
 

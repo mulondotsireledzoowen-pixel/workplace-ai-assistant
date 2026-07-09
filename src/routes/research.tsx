@@ -12,7 +12,7 @@ import { PageHeader } from "@/components/page-header";
 import { AiOutput } from "@/components/ai-output";
 
 export const Route = createFileRoute("/research")({
-  head: () => ({ meta: [{ title: "AI Research Assistant — Workly AI" }] }),
+  head: () => ({ meta: [{ title: "AI Research Assistant — SmartDesk AI" }] }),
   component: ResearchPage,
 });
 
