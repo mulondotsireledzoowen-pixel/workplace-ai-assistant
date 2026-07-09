@@ -86,14 +86,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "SmartDesk AI combines an email generator, meeting summarizer, task planner, research assistant, and AI chat into one modern productivity dashboard.",
       },
       { name: "author", content: "SmartDesk AI" },
-      { property: "og:title", content: "SmartDesk AI — Workplace Productivity Assistant" },
+      { property: "og:title", content: "SmartDesk AI — AI-Powered Workplace Productivity Assistant" },
       {
         property: "og:description",
         content:
-          "Automate emails, meeting notes, schedules, and research with a single AI-powered dashboard.",
+          "SmartDesk AI combines an email generator, meeting summarizer, task planner, research assistant, and AI chat into one modern productivity dashboard.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "SmartDesk AI — AI-Powered Workplace Productivity Assistant" },
+      { name: "twitter:description", content: "SmartDesk AI combines an email generator, meeting summarizer, task planner, research assistant, and AI chat into one modern productivity dashboard." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/37fd644d-057b-49e9-94e4-8856959df282/id-preview-e3ced171--29d1367f-6f20-47b4-9b5e-6424cf250f93.lovable.app-1783607731595.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/37fd644d-057b-49e9-94e4-8856959df282/id-preview-e3ced171--29d1367f-6f20-47b4-9b5e-6424cf250f93.lovable.app-1783607731595.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
