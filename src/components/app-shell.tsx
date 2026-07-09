@@ -31,7 +31,7 @@ export function AppShell({ children }: { children: ReactNode }) {
             <Sparkles className="h-5 w-5 text-primary-foreground" />
           </div>
           <div>
-            <div className="font-display font-semibold text-base leading-tight">Workly AI</div>
+            <div className="font-display font-semibold text-base leading-tight">SmartDesk AI</div>
             <div className="text-xs text-sidebar-foreground/60">Productivity Assistant</div>
           </div>
         </div>
@@ -71,7 +71,7 @@ export function AppShell({ children }: { children: ReactNode }) {
           <div className="h-8 w-8 rounded-md bg-gradient-primary flex items-center justify-center">
             <Sparkles className="h-4 w-4 text-primary-foreground" />
           </div>
-          <span className="font-display font-semibold">Workly AI</span>
+          <span className="font-display font-semibold">SmartDesk AI</span>
         </header>
         <nav className="md:hidden flex overflow-x-auto gap-1 px-2 py-2 bg-card border-b border-border">
           {nav.map((item) => {
@@ -93,7 +93,7 @@ export function AppShell({ children }: { children: ReactNode }) {
         </nav>
         <main className="flex-1 p-6 md:p-10 max-w-6xl w-full mx-auto">{children}</main>
         <footer className="px-6 md:px-10 py-4 text-xs text-muted-foreground border-t border-border">
-          AI-generated content may be inaccurate. Always review before use. © Workly AI
+          AI-generated content may be inaccurate. Always review before use. © SmartDesk AI
         </footer>
       </div>
     </div>

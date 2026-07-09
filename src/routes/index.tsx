@@ -99,7 +99,7 @@ function Dashboard() {
       </section>
 
       <section className="rounded-xl border border-border bg-accent/40 p-5 text-sm text-accent-foreground">
-        <strong className="font-semibold">Responsible AI:</strong> Workly AI uses large language models. Outputs may be inaccurate, biased, or outdated. Always review AI-generated content before sending, sharing, or acting on it. Do not paste confidential information you're not authorized to share with third-party AI services.
+        <strong className="font-semibold">Responsible AI:</strong> SmartDesk AI uses large language models. Outputs may be inaccurate, biased, or outdated. Always review AI-generated content before sending, sharing, or acting on it. Do not paste confidential information you're not authorized to share with third-party AI services.
       </section>
     </div>
   );

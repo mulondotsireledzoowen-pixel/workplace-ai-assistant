@@ -12,7 +12,7 @@ import { PageHeader } from "@/components/page-header";
 import { AiOutput } from "@/components/ai-output";
 
 export const Route = createFileRoute("/meetings")({
-  head: () => ({ meta: [{ title: "Meeting Summarizer — Workly AI" }] }),
+  head: () => ({ meta: [{ title: "Meeting Summarizer — SmartDesk AI" }] }),
   component: MeetingsPage,
 });
 
